@@ -1,14 +1,14 @@
 # Hotel_Booking 
 
-#Business Understanding
+# Business Understanding
 The cancellation of the booking depends on several factors. iHolSCTEday intends to predict, based on its historical data, whether or not a customer will cancel their reservation, in order to keep their chain always full through over-overbooking.
 For the business, offering the option to cancel a booking potentially generates more demand and helps anticipate occupancy. The customer has more confidence to make the reservation, in addition to a safety net in situations such as flight delays. However, the costs borne by the hotel due to cancellations are unoccupied rooms and discounted room prices, leading to reduced profits. Hotels also bear additional costs associated with overbooking (relocation costs, cash or service compensation, and social reputation).
 Therefore, it is important for stakeholders to minimize the booking cancellation rate in order to make a greater profit, and maximize the number of available rooms in the hotel. The best way to gain occupancy is to make predictions using machine learning so we know who will cancel the order in advance, in order to avoid loss of profit.
 
-#Data Understanding 
+# Data Understanding 
 This dataset consists of guest booking information from one of the major hotel chains. The information provided should be used to build some predictive models to classify whether or not a hotel reservation will be canceled, which can affect the revenue stream.
 
-As colunas têm a seguinte composição:  
+ 
 #   Column                          Non-Null Count   Dtype   
 ---  ------                          --------------   -----   
 0	Unnamed: 0                      119390 non-null  int64  discreta 
